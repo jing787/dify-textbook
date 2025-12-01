@@ -1,0 +1,16 @@
+{
+  "name": "dify-book",
+  "version": "1.0.0",
+  "description": "Dify 实战指南 - 从零开始，构建企业级 AI 应用",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": ["dify", "ai", "workflow", "tutorial"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
