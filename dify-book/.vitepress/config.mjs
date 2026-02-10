@@ -38,25 +38,26 @@ export default defineConfig({
           { text: '第 5 章：升级为 Workflow', link: '/chapters/05-upgrade-to-workflow' },
           { text: '第 6 章：条件分支', link: '/chapters/06-conditional-branch' },
           { text: '第 7 章：处理复杂问题', link: '/chapters/07-iteration' },
-          { text: '第 8 章：连接外部世界', link: '/chapters/08-tools-and-api' }
+          { text: '第 8 章：连接外部世界', link: '/chapters/08-tools-and-api' },
+          { text: '第 9 章：升级为 Chatflow', link: '/chapters/09-upgrade-to-chatflow' }
         ]
       },
       {
         text: '第三部分：更多场景',
         items: [
-          { text: '第 9 章：自动生成运营周报', link: '/chapters/09-weekly-report' },
-          { text: '第 10 章：模板转换', link: '/chapters/10-template-transform' },
-          { text: '第 11 章：多平台内容工厂', link: '/chapters/11-content-factory' },
-          { text: '第 12 章：发布你的应用', link: '/chapters/12-publish' }
+          { text: '第 10 章：自动生成运营周报', link: '/chapters/10-weekly-report' },
+          { text: '第 11 章：模板转换', link: '/chapters/11-template-transform' },
+          { text: '第 12 章：多平台内容工厂', link: '/chapters/12-content-factory' }
         ]
       },
       {
-        text: '第四部分：进阶',
+        text: '第四部分：发布与运营',
         items: [
-          { text: '第 13 章：深度研究助手', link: '/chapters/13-deep-research' },
-          { text: '第 14 章：发布与分享', link: '/chapters/14-publish-and-share' },
-          { text: '第 15 章：私有部署', link: '/chapters/15-self-hosted' },
-          { text: '第 16 章：更远的路', link: '/chapters/16-whats-next' }
+          { text: '第 13 章：发布你的应用', link: '/chapters/13-publish' },
+          { text: '第 14 章：综合实战——深度研究助手', link: '/chapters/14-deep-research' },
+          { text: '第 15 章：运营监控与优化', link: '/chapters/15-monitoring' },
+          { text: '第 16 章：私有部署', link: '/chapters/16-self-hosted' },
+          { text: '第 17 章：更远的路', link: '/chapters/17-whats-next' }
         ]
       },
       {
@@ -85,7 +86,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: '基于 Dify 构建 AI 应用',
-      copyright: '© 2025'
+      copyright: '© 2026'
     },
 
     // 搜索
