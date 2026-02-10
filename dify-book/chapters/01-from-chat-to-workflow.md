@@ -31,7 +31,7 @@ Dify 就是干这个的。
 
 ## Dify 的定位
 
-Dify 这个名字藏了一个 "if"——What if anyone could build AI apps? 它的设计理念就是：
+Dify 这个名字藏了一个 "if"——Imagine if anyone could build AI apps. 它的设计理念就是：
 
 让每个人都能构建生产级的 AI 应用，不管有没有编程背景。
 
