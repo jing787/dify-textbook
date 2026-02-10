@@ -79,7 +79,7 @@ Dify 用来保存应用配置的格式（YAML）。
 一种数据格式。长得像这样：
 
 ```json
-{"name": "小林", "age": 28}
+{"name": "Lynn", "role": "ops_manager"}
 ```
 
 ### Jinja2
