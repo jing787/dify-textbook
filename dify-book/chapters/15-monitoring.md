@@ -8,8 +8,8 @@
 >
 > 小林点进日志，翻了几条没有解决的对话，发现了问题：
 >
-> - 有个客户问"你们支持花呗分 24 期吗"，AI 回答的是"支持花呗分期"，但没说**只支持 3/6/12 期**
-> - 有个客户问"你们双十一有活动吗"，AI 说"这个问题我需要转给人工客服"——其实活动信息已经在知识库里了，只是检索没命中
+> - 有个客户问"Can I pay with Klarna in 12 installments?"，AI 回答的是"We support Klarna"，但没说**只支持 4 期免息**
+> - 有个客户问"Do you have any Black Friday deals?"，AI 说"这个问题我需要转给人工客服"——其实活动信息已经在知识库里了，只是检索没命中
 >
 > *"原来不是应用'做好了'就完事，还得持续看数据、找问题、改优化。"*
 >
@@ -56,10 +56,10 @@ Dify 会记录每一次用户和应用的交互。这是你了解应用表现的
 
 小林在日志里发现，有些问题 AI 虽然回答了，但不够好。比如：
 
-> 客户：你们支持花呗分 24 期吗？
-> AI：TechStore 支持花呗分期付款，您可以在结算时选择分期。
+> 客户：Can I use Klarna to pay in 12 installments?
+> AI：Yes, TechStore supports Klarna. You can select it at checkout.
 
-这个回答有一个关键遗漏——没说**不支持 24 期**。客户可能会以为支持，结果结算时发现不行，就变成投诉了。
+这个回答有一个关键遗漏——没说 **Klarna 只支持 4 期免息，不支持 12 期**。客户可能会以为支持，结果结算时发现不行，就变成投诉了。
 
 **标注回复（Annotation Reply）** 就是解决这个问题的。
 
@@ -82,11 +82,10 @@ Dify 会记录每一次用户和应用的交互。这是你了解应用表现的
 3. 修改为你期望的标准答案
 4. 点击「保存为标注」
 
-比如，把上面那个花呗分期的回答改为：
+比如，把上面那个 Klarna 分期的回答改为：
 
 ```
-TechStore 支持花呗分期，目前支持 3 期、6 期和 12 期，暂不支持 24 期。
-分期手续费由支付宝收取，具体费率以结算页面显示为准。
+Yes, TechStore supports Klarna's "Pay in 4" option — you can split your purchase into 4 interest-free payments. However, we don't currently support 12-month installment plans. The exact terms will be shown at checkout.
 ```
 
 **方式二：批量导入**

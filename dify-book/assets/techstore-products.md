@@ -1,123 +1,123 @@
-# TechStore 产品知识库
+# TechStore Product Catalog
 
-这是 TechStore 产品咨询的知识库素材。你可以下载并上传到 Dify 知识库进行练习。
+This is the product knowledge base material for TechStore. You can download and upload it to Dify's Knowledge Base for practice.
 
 ---
 
-## 手机类
+## Smartphones
 
 ### TechPhone Pro 16
-- **价格**：5999 元起
-- **屏幕**：6.7 英寸 AMOLED，120Hz 刷新率
-- **处理器**：天玑 9300
-- **摄像头**：5000 万主摄 + 5000 万超广角 + 6400 万长焦
-- **电池**：5000mAh，100W 快充
-- **颜色**：星空黑、冰川白、暮光紫
-- **存储**：256GB / 512GB / 1TB
-- **亮点**：旗舰性能、徕卡影像、全天续航
-- **适合人群**：摄影爱好者、商务人士、重度用户
+- **Price**: Starting at $599
+- **Display**: 6.7" AMOLED, 120Hz refresh rate
+- **Processor**: Snapdragon 8 Gen 3
+- **Camera**: 50MP main + 50MP ultrawide + 64MP telephoto
+- **Battery**: 5000mAh, 100W fast charging
+- **Colors**: Midnight Black, Glacier White, Twilight Purple
+- **Storage**: 256GB / 512GB / 1TB
+- **Highlights**: Flagship performance, Leica optics, all-day battery
+- **Best for**: Photography enthusiasts, business professionals, power users
 
 ### TechPhone Lite 12
-- **价格**：2499 元起
-- **屏幕**：6.5 英寸 LCD，90Hz 刷新率
-- **处理器**：天玑 8200
-- **摄像头**：5000 万主摄 + 800 万超广角
-- **电池**：4500mAh，67W 快充
-- **颜色**：薄荷绿、樱花粉、星耀黑
-- **存储**：128GB / 256GB
-- **亮点**：高性价比、轻薄设计、长续航
-- **适合人群**：学生、日常使用、预算有限
+- **Price**: Starting at $249
+- **Display**: 6.5" LCD, 90Hz refresh rate
+- **Processor**: Snapdragon 7 Gen 1
+- **Camera**: 50MP main + 8MP ultrawide
+- **Battery**: 4500mAh, 67W fast charging
+- **Colors**: Mint Green, Sakura Pink, Starlight Black
+- **Storage**: 128GB / 256GB
+- **Highlights**: Great value, slim design, long battery life
+- **Best for**: Students, everyday use, budget-conscious buyers
 
-## 平板类
+## Tablets
 
 ### TechPad Pro 14
-- **价格**：6999 元
-- **屏幕**：14.6 英寸 Mini-LED，120Hz
-- **处理器**：天玑 9300
-- **存储**：256GB / 512GB
-- **电池**：10000mAh
-- **配件**：支持手写笔、键盘
-- **亮点**：生产力工具、专业绘图、影音娱乐
-- **适合人群**：设计师、学生、内容创作者
+- **Price**: $699
+- **Display**: 14.6" Mini-LED, 120Hz
+- **Processor**: Snapdragon 8 Gen 3
+- **Storage**: 256GB / 512GB
+- **Battery**: 10000mAh
+- **Accessories**: Stylus & keyboard support
+- **Highlights**: Productivity powerhouse, professional drawing, multimedia
+- **Best for**: Designers, students, content creators
 
 ### TechPad Air 11
-- **价格**：3499 元
-- **屏幕**：11 英寸 LCD，120Hz
-- **处理器**：天玑 8200
-- **存储**：128GB / 256GB
-- **电池**：8000mAh
-- **亮点**：轻便、娱乐、学习
-- **适合人群**：学生、追剧、轻度办公
+- **Price**: $349
+- **Display**: 11" LCD, 120Hz
+- **Processor**: Snapdragon 7 Gen 1
+- **Storage**: 128GB / 256GB
+- **Battery**: 8000mAh
+- **Highlights**: Lightweight, entertainment, learning
+- **Best for**: Students, streaming, light work
 
-## 笔记本电脑类
+## Laptops
 
 ### TechBook Pro 15
-- **价格**：8999 元
-- **屏幕**：15.6 英寸 2.5K，165Hz
-- **处理器**：Intel i7-13700H
-- **显卡**：RTX 4060
-- **内存**：16GB DDR5
-- **存储**：512GB SSD
-- **亮点**：游戏本、高性能、散热好
-- **适合人群**：游戏玩家、视频剪辑、3D 设计
+- **Price**: $899
+- **Display**: 15.6" 2.5K, 165Hz
+- **Processor**: Intel i7-13700H
+- **GPU**: RTX 4060
+- **RAM**: 16GB DDR5
+- **Storage**: 512GB SSD
+- **Highlights**: Gaming laptop, high performance, excellent cooling
+- **Best for**: Gamers, video editors, 3D designers
 
 ### TechBook Air 14
-- **价格**：5999 元
-- **屏幕**：14 英寸 2K，60Hz
-- **处理器**：Intel i5-1340P
-- **显卡**：集成显卡
-- **内存**：16GB
-- **存储**：512GB SSD
-- **重量**：1.3kg
-- **亮点**：轻薄、长续航、商务
-- **适合人群**：商务人士、学生、移动办公
+- **Price**: $599
+- **Display**: 14" 2K, 60Hz
+- **Processor**: Intel i5-1340P
+- **GPU**: Integrated
+- **RAM**: 16GB
+- **Storage**: 512GB SSD
+- **Weight**: 2.87 lbs (1.3kg)
+- **Highlights**: Ultra-light, all-day battery, business-ready
+- **Best for**: Business professionals, students, remote workers
 
-## 智能穿戴
+## Wearables
 
 ### TechWatch Ultra
-- **价格**：2999 元
-- **屏幕**：1.9 英寸 AMOLED
-- **续航**：普通模式 14 天，GPS 模式 3 天
-- **防水**：IP68 + 5ATM
-- **功能**：心率、血氧、睡眠监测、100+ 运动模式
-- **亮点**：专业运动、健康管理
-- **适合人群**：运动爱好者、健康关注者
+- **Price**: $299
+- **Display**: 1.9" AMOLED
+- **Battery Life**: 14 days normal use, 3 days GPS mode
+- **Water Resistance**: IP68 + 5ATM
+- **Features**: Heart rate, SpO2, sleep tracking, 100+ workout modes
+- **Highlights**: Pro-grade sports tracking, health monitoring
+- **Best for**: Fitness enthusiasts, health-conscious users
 
 ### TechBuds Pro 3
-- **价格**：1299 元
-- **降噪**：45dB 主动降噪
-- **续航**：单次 8 小时，总 32 小时
-- **特色**：空间音频、多设备切换、IPX5 防水
-- **亮点**：旗舰降噪、音质出色
-- **适合人群**：通勤族、音乐爱好者
+- **Price**: $129
+- **Noise Cancellation**: 45dB active noise cancellation
+- **Battery Life**: 8 hours per charge, 32 hours with case
+- **Features**: Spatial audio, multi-device switching, IPX5 water resistance
+- **Highlights**: Flagship ANC, premium sound quality
+- **Best for**: Commuters, music lovers
 
-## 配件类
+## Accessories
 
 ### TechCharger 100W
-- **价格**：299 元
-- **功率**：100W 氮化镓
-- **接口**：2 USB-C + 1 USB-A
-- **兼容**：手机、平板、笔记本
+- **Price**: $29
+- **Power**: 100W GaN
+- **Ports**: 2 USB-C + 1 USB-A
+- **Compatible**: Phones, tablets, laptops
 
 ### TechPencil 2
-- **价格**：799 元
-- **兼容**：TechPad Pro 14、TechPad Air 11
-- **功能**：4096 级压感、倾斜感应、磁吸充电
+- **Price**: $79
+- **Compatible**: TechPad Pro 14, TechPad Air 11
+- **Features**: 4096 pressure levels, tilt detection, magnetic charging
 
-### TechCase 保护壳系列
-- **价格**：99-299 元
-- **材质**：硅胶 / 皮革 / 碳纤维
-- **兼容**：TechPhone 全系列
+### TechCase Protective Series
+- **Price**: $9 – $29
+- **Materials**: Silicone / Leather / Carbon fiber
+- **Compatible**: All TechPhone models
 
 ---
 
-## 产品对比速查
+## Quick Comparison
 
-| 产品 | 定位 | 价格 | 推荐人群 |
-|------|------|------|----------|
-| TechPhone Pro 16 | 旗舰 | 5999+ | 重度用户 |
-| TechPhone Lite 12 | 性价比 | 2499+ | 学生、日常 |
-| TechPad Pro 14 | 生产力 | 6999 | 设计师、创作者 |
-| TechPad Air 11 | 娱乐 | 3499 | 学生、追剧 |
-| TechBook Pro 15 | 游戏本 | 8999 | 游戏、设计 |
-| TechBook Air 14 | 轻薄本 | 5999 | 商务、移动办公 |
+| Product | Category | Price | Best For |
+|---------|----------|-------|----------|
+| TechPhone Pro 16 | Flagship phone | $599+ | Power users |
+| TechPhone Lite 12 | Budget phone | $249+ | Students, everyday |
+| TechPad Pro 14 | Pro tablet | $699 | Designers, creators |
+| TechPad Air 11 | Budget tablet | $349 | Students, streaming |
+| TechBook Pro 15 | Gaming laptop | $899 | Gamers, designers |
+| TechBook Air 14 | Ultrabook | $599 | Business, remote work |

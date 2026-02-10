@@ -5,7 +5,7 @@
 ### LLM（大语言模型）
 Large Language Model 的缩写。经过海量文本训练的 AI 模型，能理解和生成自然语言。
 
-代表：GPT-4、Claude、Gemini
+代表：GPT-5、Claude、Gemini
 
 ### Prompt（提示词）
 给 AI 的指令或问题。好的提示词 = 好的输出。
@@ -40,7 +40,7 @@ Retrieval-Augmented Generation
 ### 向量数据库
 专门存储和检索向量的数据库。
 
-Dify 用的是 Weaviate，也支持 Milvus、Pinecone 等。
+Dify 默认使用 pgvector（基于 PostgreSQL），也支持 Weaviate、Qdrant、Milvus、Pinecone 等。
 
 ## Dify 相关
 

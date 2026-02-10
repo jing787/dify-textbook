@@ -41,25 +41,25 @@ AI 要能回答 TechStore 的问题，首先需要"知道" TechStore 的信息�
 
 ::: details 点击查看 TechStore FAQ 示例内容
 ```markdown
-# TechStore 常见问题
+# TechStore FAQ
 
-## 配送相关
-- 配送范围：全国配送（港澳台及海外暂不支持）
-- 配送时效：一线城市 1-2 天，其他地区 3-5 天
-- 配送费用：订单满 99 元免运费，不满 99 元收取 10 元运费
+## Shipping
+- Coverage: Domestic shipping within the US
+- Delivery: Metro areas 1-2 days, other regions 3-5 days
+- Cost: Free shipping on orders over $50; $5.99 flat rate otherwise
 
-## 退换货政策
-- 7 天无理由退换：自签收之日起 7 天内，商品未拆封可退
-- 质量问题：15 天内可换货，1 年内可维修
-- 不支持退换：已激活的电子产品、定制商品、赠品
+## Return Policy
+- 30-day return: Within 30 days of delivery, item must be unopened
+- Defective items: 15-day exchange, 1-year free repair
+- Non-returnable: Activated electronics, custom products, free gifts
 
-## 保修政策
-- 手机/平板：1 年官方保修
-- 笔记本电脑：2 年官方保修
-- 配件：6 个月保修
+## Warranty
+- Smartphones / Tablets: 1-year warranty
+- Laptops: 2-year warranty
+- Accessories: 6-month warranty
 
-## 支付方式
-支持支付宝、微信支付、银联卡、信用卡、花呗分期
+## Payment Methods
+Credit/Debit cards (Visa, MasterCard, Amex), PayPal, Apple Pay, Klarna installments
 ```
 :::
 
@@ -120,7 +120,7 @@ Dify 后来推出了更强大的 **Knowledge Pipeline（知识管线）**，你�
 **选择模型：**
 
 1. 在「模型」区域，选择你配置好的模型
-2. 推荐：gpt-3.5-turbo（性价比高）或 gpt-4（效果更好但更贵）
+2. 推荐：gpt-4o-mini（性价比高）或 gpt-5（效果更好但更贵）
 
 ## 第四步：测试效果
 

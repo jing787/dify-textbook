@@ -69,10 +69,10 @@
 {{content}}
 
 {{platform}} 风格要求：
-- 公众号：专业、详细、可配图
-- 小红书：种草、真实、多 emoji
-- 微博：简短、有梗、带话题
-- LinkedIn：商务、专业、英文
+- Blog：专业、详细、SEO-friendly
+- Instagram：种草、lifestyle、多 emoji
+- Twitter/X：简短、有梗、带 hashtag
+- LinkedIn：商务、专业
 ```
 
 ## 小林的提示词心得

@@ -54,7 +54,7 @@ export default defineConfig({
         text: '第四部分：发布与运营',
         items: [
           { text: '第 13 章：发布你的应用', link: '/chapters/13-publish' },
-          { text: '第 14 章：综合实战——深度研究助手', link: '/chapters/14-deep-research' },
+          { text: '第 14 章：综合实战——客户流失预警', link: '/chapters/14-deep-research' },
           { text: '第 15 章：运营监控与优化', link: '/chapters/15-monitoring' },
           { text: '第 16 章：私有部署', link: '/chapters/16-self-hosted' },
           { text: '第 17 章：更远的路', link: '/chapters/17-whats-next' }
@@ -96,7 +96,7 @@ export default defineConfig({
 
     // 编辑链接（方便你在 GitHub 上编辑）
     editLink: {
-      pattern: 'https://github.com/YOUR_USERNAME/dify-book/edit/main/:path',
+      pattern: 'https://github.com/jing787/dify-textbook/edit/main/dify-book/:path',
       text: '在 GitHub 上编辑此页'
     },
 

@@ -2,7 +2,7 @@
 
 > TechStore 客服已经很强大了。但还有一类问题它处理不了：
 >
-> 客户问：*「我的订单 2024112800001 到哪了？」*
+> 客户问：*「我的订单 2025112800001 到哪了？」*
 >
 > AI 回答：*「请您查看物流信息……」*
 >
@@ -61,7 +61,7 @@ Agent 节点是一个特殊的 LLM 节点，它可以**自主决定是否调用�
 1. 在 Workflow 中添加「Agent」节点
 2. 配置：
 
-**选择模型**：gpt-4（推荐，工具调用更准确）或 gpt-3.5-turbo
+**选择模型**：gpt-5（推荐，工具调用更准确）或 gpt-4o-mini
 
 **配置工具**：勾选你要使用的工具，比如「DuckDuckGo 搜索」
 
@@ -101,10 +101,10 @@ TechPhone Pro 16 和 iPhone 16 相比怎么样？
 屏幕：TechPhone Pro 16 采用 6.7 英寸 AMOLED 屏幕，支持 120Hz 刷新率；
 iPhone 16 是 6.1 英寸 Super Retina XDR 屏幕，也支持 120Hz。
 
-性能：TechPhone Pro 16 搭载天玑 9300，iPhone 16 搭载 A18 芯片。
+性能：TechPhone Pro 16 搭载 Snapdragon 8 Gen 3，iPhone 16 搭载 A18 芯片。
 从跑分来看……
 
-价格：TechPhone Pro 16 起售价 5999 元，iPhone 16 起售价 7999 元。
+价格：TechPhone Pro 16 起售价 $599，iPhone 16 起售价 $799。
 在性价比上 TechStore 的产品有明显优势。
 
 如果您更看重性价比和快充，推荐 TechPhone Pro 16；
@@ -136,7 +136,7 @@ iPhone 16 是 6.1 英寸 Super Retina XDR 屏幕，也支持 120Hz。
 
 ::: warning 注意
 这是一个简化示例。实际项目中，你需要：
-- 有真实的快递查询 API（快递100、快递鸟等）
+- 有真实的快递查询 API（FedEx Tracking API、UPS API 等）
 - 配置正确的认证信息
 - 处理各种异常情况
 :::

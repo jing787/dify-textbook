@@ -70,6 +70,8 @@ Dify 支持把应用嵌入到任意网页。
 
 3. 把这段代码放到你网站的 HTML 里
 
+上面是最简写法。实际使用时，以 Dify 后台「嵌入到网站」页面生成的代码为准——它会自动填好你的 token 和正确的 script 地址。
+
 **效果**：网站右下角会出现一个聊天气泡，顾客点击就能和 AI 对话。
 
 ---
@@ -78,7 +80,7 @@ Dify 支持把应用嵌入到任意网页。
 
 上线第一天，AI 客服处理了 200 多次对话，其中 150 多次直接解决了问题，不需要转人工。
 
-客服主管发来消息：*"小林，我请你喝奶茶！"*
+客服主管发来消息：*"小林，I owe you a coffee！"*
 
 ## 方式三：API 集成
 
@@ -111,7 +113,7 @@ Body:
 {
   "inputs": {
     "product_info": "TechBuds Pro 3 真无线降噪耳机...",
-    "platforms": ["公众号", "小红书", "微博"]
+    "platforms": ["Blog", "Instagram", "Twitter/X"]
   },
   "user": "marketing_system"
 }
@@ -122,7 +124,7 @@ Body:
 {
   "data": {
     "outputs": {
-      "content": "【公众号版本】...【小红书版本】...【微博版本】..."
+      "content": "【Blog】...【Instagram】...【Twitter/X】..."
     }
   }
 }

@@ -4,7 +4,7 @@
 >
 > *"我们现在用的 Dify 云服务，数据都存在他们的服务器上对吧？"*
 >
-> *"是的，存在美国的服务器。"* IT 总监回答。
+> *"是的，存在 Dify 的云端服务器上。"* IT 总监回答。
 >
 > *"这个有点问题。我们的客服对话里可能有客户手机号、订单号这些信息。如果将来业务数据也接进来，风险更大。能不能把 Dify 部署到我们自己的服务器上？"*
 >
@@ -18,7 +18,7 @@
 |---|--------|----------|
 | 部署位置 | Dify 的服务器 | 你自己的服务器 |
 | 运维责任 | Dify 负责 | 你自己负责 |
-| 数据存储 | 在 Dify 服务器（美国）| 完全自己控制 |
+| 数据存储 | 在 Dify 云端服务器 | 完全自己控制 |
 | 费用 | 按用量付费 | 只需服务器成本 |
 | 上手难度 | 开箱即用 | 需要技术能力 |
 
@@ -35,14 +35,14 @@ TechStore 的情况：客服对话涉及客户信息，未来可能接入业务�
 IT 部的运维同事老张说：*"用 Docker Compose 部署最简单，我来操作。"*
 
 **前提条件：**
-- 一台服务器（推荐 4 核 CPU、16GB 内存）
+- 一台服务器（最低 2 核 CPU、4GB 内存；生产环境建议 4 核、8GB 以上）
 - 安装了 Docker 和 Docker Compose
 
 **部署步骤：**
 
 ```bash
-# 1. 下载 Dify 代码
-git clone https://github.com/langgenius/dify.git
+# 1. 下载 Dify 最新 release 版本（推荐，比直接 clone 主分支更稳定）
+git clone --branch "$(curl -s https://api.github.com/repos/langgenius/dify/releases/latest | jq -r .tag_name)" https://github.com/langgenius/dify.git
 cd dify/docker
 
 # 2. 配置环境变量
@@ -53,7 +53,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-这个命令会启动一堆容器：nginx、web、api、worker、db、redis、weaviate……
+这个命令会启动一堆容器：nginx、web、api、worker、db（PostgreSQL，也承担向量存储）、redis……
 
 **第 4 步：访问**
 
@@ -95,10 +95,10 @@ docker compose up -d
 
 财务部问小林：*"私有部署省钱吗？"*
 
-| | 云服务（Team 版）| 私有部署 |
+| | 云服务（Team plan）| 私有部署 |
 |---|------------------|----------|
-| 月费 | ~1100 元/月 | - |
-| 服务器 | - | ~500 元/月 |
+| 月费 | ~$159/月 | — |
+| 服务器 | — | ~$50–100/月（cloud VM）|
 | LLM 调用费 | 另算 | 另算 |
 | 运维人力 | 无 | IT 部兼顾 |
 

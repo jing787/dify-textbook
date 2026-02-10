@@ -1,112 +1,107 @@
-# TechStore FAQ 文档
+# TechStore FAQ Document
 
-这是 TechStore AI 客服的知识库素材。你可以下载并上传到 Dify 知识库进行练习。
+This is the knowledge base material for the TechStore AI customer service. You can download and upload it to Dify's Knowledge Base for practice.
 
 ---
 
-## 关于 TechStore
+## About TechStore
 
-TechStore 成立于 2018 年，是一家专注于消费电子产品的电商平台。我们销售手机、平板、笔记本电脑、智能穿戴设备及各类配件。
+TechStore was founded in 2018 as an online consumer electronics retailer. We sell smartphones, tablets, laptops, wearables, and accessories.
 
-## 配送相关
+## Shipping
 
-### 配送范围
-全国配送（港澳台及海外暂不支持）
+### Coverage
+We ship domestically within the US. International shipping is available to select countries (additional fees apply).
 
-### 配送时效
-- 一线城市（北上广深）：1-2 个工作日
-- 省会城市及二线城市：2-3 个工作日
-- 其他地区：3-5 个工作日
+### Delivery Times
+- Metro areas (NYC, LA, Chicago, etc.): 1-2 business days
+- Other major cities: 2-3 business days
+- Rural areas: 3-5 business days
 
-### 配送费用
-- 订单满 99 元：免运费
-- 订单不满 99 元：收取 10 元运费
+### Shipping Cost
+- Orders over $50: Free shipping
+- Orders under $50: $5.99 flat rate
 
-### 快递公司
-默认使用顺丰快递，部分地区使用京东物流或中通快递
+### Carriers
+Default carrier is FedEx. Some regions may use UPS or USPS.
 
-## 退换货政策
+## Return & Exchange Policy
 
-### 7 天无理由退换
-- 自签收之日起 7 天内
-- 商品未拆封、不影响二次销售
-- 赠品需一并退回
+### 30-Day Return Window
+- Within 30 days of delivery
+- Item must be unopened and in original packaging
+- Free gifts must be returned together
 
-### 质量问题退换
-- 15 天内可换货
-- 1 年内可送修
+### Defective Products
+- 15 days: exchange for a new unit
+- 1 year: free repair
 
-### 不支持退换的情况
-- 已激活的电子产品
-- 定制商品
-- 赠品单独退换
-- 人为损坏
+### Non-Returnable Items
+- Activated electronics
+- Custom-built products
+- Free gifts (cannot be returned separately)
+- Physical damage caused by the customer
 
-### 退换货流程
-1. 在订单详情页申请退换货
-2. 等待客服审核（24 小时内）
-3. 审核通过后，按指引寄回商品
-4. 收到商品后 3-5 个工作日完成退款/换货
+### Return Process
+1. Submit a return request on the order detail page
+2. Wait for customer service review (within 24 hours)
+3. Ship the item back following the provided instructions
+4. Refund or replacement processed within 3-5 business days after receiving the item
 
-## 保修政策
+## Warranty
 
-### 保修期限
-- 手机/平板：1 年官方保修
-- 笔记本电脑：2 年官方保修
-- 配件（耳机、充电器等）：6 个月保修
+### Warranty Period
+- Smartphones / Tablets: 1-year manufacturer warranty
+- Laptops: 2-year manufacturer warranty
+- Accessories (earbuds, chargers, etc.): 6-month warranty
 
-### 保修范围
-- 非人为损坏的质量问题
-- 保修期内免费维修
+### What's Covered
+- Manufacturing defects (non-accidental)
+- Free repair within warranty period
 
-### 不在保修范围
-- 人为损坏（摔落、进水、拆机等）
-- 自然灾害造成的损坏
-- 非官方渠道维修后的产品
+### What's NOT Covered
+- Accidental damage (drops, water damage, unauthorized disassembly)
+- Natural disaster damage
+- Products repaired by unauthorized third parties
 
-### 保修流程
-1. 联系客服确认问题
-2. 寄送产品至维修中心
-3. 检测维修（7-15 个工作日）
-4. 寄回修好的产品
+### Warranty Process
+1. Contact customer service to confirm the issue
+2. Ship the product to our service center
+3. Inspection & repair (7-15 business days)
+4. Product shipped back to you
 
-## 支付方式
+## Payment Methods
 
-支持以下支付方式：
-- 支付宝
-- 微信支付
-- 银联卡
-- 信用卡（Visa、MasterCard）
-- 花呗分期（3/6/12 期）
+We accept the following payment methods:
+- Credit / Debit cards (Visa, MasterCard, Amex)
+- PayPal
+- Apple Pay / Google Pay
+- Klarna (Buy Now, Pay Later — 4 installments)
 
-## 发票相关
+## Invoices
 
-### 发票类型
-- 电子发票（默认）
-- 纸质发票（需额外申请）
+### Invoice Type
+- Digital invoice (default, sent via email)
+- Printed invoice (available upon request)
 
-### 开票时间
-订单完成后 24 小时内发送至您的邮箱
+### Timing
+Invoice sent to your email within 24 hours after order completion.
 
-### 发票内容
-可开具"电子产品"或"办公用品"
+## Membership Tiers
 
-## 会员体系
+| Tier | Requirement | Benefits |
+|------|-------------|----------|
+| Basic | Sign up | — |
+| Silver | $200+ lifetime spend | 5% off |
+| Gold | $1,000+ lifetime spend | 10% off + priority shipping |
+| Platinum | $5,000+ lifetime spend | 15% off + dedicated support |
 
-### 会员等级
-| 等级 | 条件 | 权益 |
-|------|------|------|
-| 普通会员 | 注册即可 | 无 |
-| 银卡会员 | 累计消费 2000 元 | 95 折 |
-| 金卡会员 | 累计消费 10000 元 | 9 折 + 优先发货 |
-| 钻石会员 | 累计消费 50000 元 | 85 折 + 专属客服 |
+### Rewards Points
+- $1 spent = 1 point
+- 100 points = $1 store credit
 
-### 积分规则
-- 消费 1 元 = 1 积分
-- 100 积分 = 1 元抵扣
+## Contact Us
 
-## 联系方式
-
-- 客服热线：400-123-4567（9:00-21:00）
-- 在线客服：官网右下角
-- 邮箱：support@techstore.com
+- Customer service: 1-800-TECH-STORE (9 AM – 9 PM ET)
+- Live chat: Bottom-right corner of our website
+- Email: support@techstore.com
