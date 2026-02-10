@@ -31,9 +31,9 @@ Dify 就是干这个的。
 
 ## Dify 的定位
 
-Dify 的全称是"Define + Modify"——定义，然后持续改进。它的设计理念是：
+Dify 这个名字藏了一个 "if"——What if anyone could build AI apps? 它的设计理念就是：
 
-**让每个人都能构建生产级的 AI 应用，无论是否有编程背景。**
+让每个人都能构建生产级的 AI 应用，不管有没有编程背景。
 
 Dify 提供了什么？
 

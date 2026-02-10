@@ -42,6 +42,7 @@ IT 部的运维同事老张说：*"用 Docker Compose 部署最简单，我来�
 
 ```bash
 # 1. 下载 Dify 最新 release 版本（推荐，比直接 clone 主分支更稳定）
+# 需要预装 git、curl、jq
 git clone --branch "$(curl -s https://api.github.com/repos/langgenius/dify/releases/latest | jq -r .tag_name)" https://github.com/langgenius/dify.git
 cd dify/docker
 
@@ -53,7 +54,7 @@ cp .env.example .env
 docker compose up -d
 ```
 
-这个命令会启动一堆容器：nginx、web、api、worker、db（PostgreSQL，也承担向量存储）、redis……
+这个命令会启动一堆容器：nginx、web、api、worker、db（PostgreSQL）、redis、weaviate（向量数据库）、sandbox（代码执行沙箱）……
 
 **第 4 步：访问**
 
@@ -119,13 +120,16 @@ docker compose up -d
 **版本升级：**
 ```bash
 cd dify/docker
+# 先备份当前版本
+cp -r . ../dify-docker-backup
 git pull
 docker compose down
+docker compose pull    # 拉取最新镜像，不然可能用旧缓存
 docker compose up -d
 ```
 
 ::: tip 建议
-不要追最新版，等稳定一两周再升。
+不要追最新版，等稳定一两周再升。升级前一定备份，出问题能回滚。
 :::
 
 小林和老张约定：每周碰一次，review 系统状态。

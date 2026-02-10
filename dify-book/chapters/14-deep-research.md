@@ -141,22 +141,27 @@
 添加「代码执行」节点，把评估结果按风险等级分组：
 
 ```python
-import json
+def main(iteration_output: str) -> dict:
+    import json
 
-results = json.loads(iteration_output)
-high = [r for r in results if r["risk_level"] == "HIGH"]
-medium = [r for r in results if r["risk_level"] == "MEDIUM"]
-low = [r for r in results if r["risk_level"] == "LOW"]
+    results = json.loads(iteration_output)
+    high = [r for r in results if r["risk_level"] == "HIGH"]
+    medium = [r for r in results if r["risk_level"] == "MEDIUM"]
+    low = [r for r in results if r["risk_level"] == "LOW"]
 
-return {
-    "high_risk": json.dumps(high),
-    "medium_risk": json.dumps(medium),
-    "low_risk": json.dumps(low),
-    "high_count": len(high),
-    "medium_count": len(medium),
-    "low_count": len(low)
-}
+    return {
+        "high_risk": json.dumps(high),
+        "medium_risk": json.dumps(medium),
+        "low_risk": json.dumps(low),
+        "high_count": len(high),
+        "medium_count": len(medium),
+        "low_count": len(low)
+    }
 ```
+
+::: tip
+Dify 的代码执行节点要求所有代码包装在 `main` 函数里，参数需要标注类型，`import` 也放在函数内部。
+:::
 
 ## 第四步：为高风险客户生成留存方案
 
