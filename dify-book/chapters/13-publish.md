@@ -171,6 +171,35 @@ DSL（Domain Specific Language）是 Dify 用来保存应用配置的格式。�
 每次大改 Workflow 之前，先导出一份 DSL 备份。
 :::
 
+## 方式五：发布为 MCP Server
+
+IT 部的一个开发同事找到小林：*"我在 Cursor 里写代码，经常需要查 TechStore 的产品信息。能不能让我在 Cursor 里直接调你的知识库？"*
+
+小林一开始没想到怎么搞，后来发现 Dify 支持把应用**发布为 MCP Server**。
+
+**什么是 MCP？**
+
+MCP（Model Context Protocol）是一套标准协议，让 AI 工具之间可以互相调用。你可以把它理解为"AI 工具之间的 USB 接口"——只要都支持 MCP，就能互相连接。
+
+目前支持 MCP 的工具包括 Claude Desktop、Cursor、Windsurf 等，而且还在快速增加。
+
+**如何发布：**
+
+1. 打开你的应用，进入设置
+2. 找到「MCP Server」选项，开启
+3. Dify 会生成一个 MCP Server 地址（包含认证信息）
+4. 把这个地址配置到 Claude Desktop 或 Cursor 中
+
+配置完成后，开发同事在 Cursor 里就能直接调用 TechStore 的知识库查产品信息了——不需要切换到 Dify 界面，也不需要写 API 调用代码。
+
+::: tip 五种发布方式的选择
+- **网页链接**：最简单，给非技术人员用
+- **嵌入网站**：面向终端用户，嵌入官网或产品页
+- **API**：面向开发者，集成到内部系统
+- **DSL 导出**：分享应用框架，团队协作
+- **MCP Server**：接入 AI 工具生态（Claude、Cursor 等）
+:::
+
 ## 安全与权限
 
 应用发布之后，IT 部的安全专员找到小林：*"你这些 AI 工具，权限是怎么控制的？"*
