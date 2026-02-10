@@ -5,7 +5,7 @@
 ### LLM（大语言模型）
 Large Language Model 的缩写。经过海量文本训练的 AI 模型，能理解和生成自然语言。
 
-代表：GPT-4、Claude、文心一言
+代表：GPT-4、Claude、Gemini
 
 ### Prompt（提示词）
 给 AI 的指令或问题。好的提示词 = 好的输出。

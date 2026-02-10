@@ -10,24 +10,20 @@
 
 Dify 本身是一个编排平台，它需要调用大语言模型来处理任务。你需要先配置一个模型。
 
-**选项一：使用 OpenAI**
+以 OpenAI 为例：
 
 1. 访问 [platform.openai.com](https://platform.openai.com)
 2. 注册账号并添加支付方式
 3. 在 API Keys 页面创建一个新的 Key
 4. 复制保存好（只显示一次）
 
-**选项二：使用国内模型（如通义千问、文心一言）**
-
-国内模型通常更便宜，且不需要科学上网。流程类似：
-1. 在对应平台注册开发者账号
-2. 创建应用获取 API Key
+Dify 支持几十种模型供应商（OpenAI、Anthropic、Google Gemini、Mistral、AWS Bedrock 等），流程都类似——去对应平台注册开发者账号，拿到 API Key 即可。
 
 **在 Dify 中配置模型：**
 
 1. 进入 Dify 工作台
 2. 点击右上角头像 → 设置 → 模型供应商
-3. 找到你的模型（如 OpenAI），点击配置
+3. 找到你的模型供应商（如 OpenAI），点击配置
 4. 填入 API Key，保存
 
 配置完成后，你就可以在 Dify 中使用这个模型了。

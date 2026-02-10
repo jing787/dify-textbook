@@ -38,9 +38,9 @@ Dify 的工具能力通过**插件市场（Marketplace）** 提供。你可以�
 
 插件市场里的内容分成几大类：
 
-**Tools（工具类插件）** 是最常用的。搜索引擎、天气查询、数学计算、代码执行……这些都是以插件形式存在的，用之前需要先安装。Google Search、DuckDuckGo、维基百科、Slack、飞书、钉钉——社区在持续贡献新的工具插件。
+**Tools（工具类插件）** 是最常用的。搜索引擎、天气查询、数学计算、代码执行……这些都是以插件形式存在的，用之前需要先安装。Google Search、DuckDuckGo、Wikipedia、Slack、Notion、GitHub——社区在持续贡献新的工具插件。
 
-**Models（模型插件）** 用来接入各种大语言模型。OpenAI、Anthropic、AWS Bedrock、通义千问……每个模型供应商也是一个插件。
+**Models（模型插件）** 用来接入各种大语言模型。OpenAI、Anthropic、Google Gemini、AWS Bedrock……每个模型供应商也是一个插件。
 
 **Agent Strategies（推理策略）** 和 **Extensions（扩展）** 是更进阶的类别，后面碰到时再说。
 
