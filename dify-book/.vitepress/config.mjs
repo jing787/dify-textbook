@@ -32,30 +32,40 @@ export default defineConfig({
         ]
       },
       {
-        text: '第二部分：客服场景',
+        text: '第二部分：Workflow 基础',
         items: [
           { text: '第 3 章：30 分钟搭建 AI 客服', link: '/chapters/03-first-chatbot' },
           { text: '第 4 章：理解应用类型', link: '/chapters/04-app-types' },
-          { text: '第 5 章：升级为 Workflow', link: '/chapters/05-upgrade-to-workflow' },
-          { text: '第 6 章：条件分支', link: '/chapters/06-conditional-branch' },
-          { text: '第 7 章：处理复杂问题', link: '/chapters/07-iteration' },
-          { text: '第 8 章：连接外部世界', link: '/chapters/08-tools-and-api' },
-          { text: '第 9 章：升级为 Chatflow', link: '/chapters/09-upgrade-to-chatflow' }
+          { text: '第 5 章：升级为 Workflow', link: '/chapters/05-upgrade-to-workflow' }
         ]
       },
       {
-        text: '第三部分：更多场景',
+        text: '第三部分：Workflow 进阶',
+        items: [
+          { text: '第 6 章：条件分支', link: '/chapters/06-conditional-branch' },
+          { text: '第 7 章：处理复杂问题', link: '/chapters/07-iteration' },
+          { text: '第 8 章：连接外部世界', link: '/chapters/08-tools-and-api' }
+        ]
+      },
+      {
+        text: '第四部分：Chatflow = Workflow + 对话',
+        items: [
+          { text: '第 9 章：给 Workflow 加上对话记忆', link: '/chapters/09-upgrade-to-chatflow' }
+        ]
+      },
+      {
+        text: '第五部分：实战场景',
         items: [
           { text: '第 10 章：自动生成运营周报', link: '/chapters/10-weekly-report' },
           { text: '第 11 章：模板转换', link: '/chapters/11-template-transform' },
-          { text: '第 12 章：多平台内容工厂', link: '/chapters/12-content-factory' }
+          { text: '第 12 章：多平台内容工厂', link: '/chapters/12-content-factory' },
+          { text: '第 14 章：综合实战——客户流失预警', link: '/chapters/14-deep-research' }
         ]
       },
       {
-        text: '第四部分：发布与运营',
+        text: '第六部分：发布与运营',
         items: [
           { text: '第 13 章：发布你的应用', link: '/chapters/13-publish' },
-          { text: '第 14 章：综合实战——客户流失预警', link: '/chapters/14-deep-research' },
           { text: '第 15 章：运营监控与优化', link: '/chapters/15-monitoring' },
           { text: '第 16 章：私有部署', link: '/chapters/16-self-hosted' },
           { text: '第 17 章：更远的路', link: '/chapters/17-whats-next' }
