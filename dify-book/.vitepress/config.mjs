@@ -65,16 +65,16 @@ export default defineConfig({
       {
         text: '第六部分：知识库进阶',
         items: [
-          { text: '知识库进阶——让 AI 答得更准', link: '/chapters/knowledge-advanced' }
+          { text: '第 15 章：知识库进阶——让 AI 答得更准', link: '/chapters/15-knowledge-advanced' }
         ]
       },
       {
         text: '第七部分：发布与运营',
         items: [
           { text: '第 13 章：发布你的应用', link: '/chapters/13-publish' },
-          { text: '第 15 章：运营监控与优化', link: '/chapters/15-monitoring' },
-          { text: '第 16 章：私有部署', link: '/chapters/16-self-hosted' },
-          { text: '第 17 章：更远的路', link: '/chapters/17-whats-next' }
+          { text: '第 16 章：运营监控与优化', link: '/chapters/16-monitoring' },
+          { text: '第 17 章：私有部署', link: '/chapters/17-self-hosted' },
+          { text: '第 18 章：更远的路', link: '/chapters/18-whats-next' }
         ]
       },
       {
