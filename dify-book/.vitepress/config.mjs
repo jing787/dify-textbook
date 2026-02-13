@@ -19,6 +19,7 @@ export default defineConfig({
       {
         text: '开始',
         items: [
+          { text: '📍 学习路线图', link: '/chapters/learning-roadmap' },
           { text: '前言', link: '/chapters/preface' },
           { text: '第 0 章：5 分钟见证 AI 应用的诞生', link: '/chapters/00-quick-start' }
         ]
