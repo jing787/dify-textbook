@@ -63,7 +63,13 @@ export default defineConfig({
         ]
       },
       {
-        text: '第六部分：发布与运营',
+        text: '第六部分：知识库进阶',
+        items: [
+          { text: '知识库进阶——让 AI 答得更准', link: '/chapters/knowledge-advanced' }
+        ]
+      },
+      {
+        text: '第七部分：发布与运营',
         items: [
           { text: '第 13 章：发布你的应用', link: '/chapters/13-publish' },
           { text: '第 15 章：运营监控与优化', link: '/chapters/15-monitoring' },
