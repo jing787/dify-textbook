@@ -1,4 +1,4 @@
-# 第 9 章：升级为 Chatflow——让客服拥有记忆
+# 第 9 章：给 Workflow 加上对话记忆
 
 > TechStore 的 AI 客服已经能分类、能拆解、能查询了。但客服组长反馈了一个新问题：
 >
@@ -17,7 +17,7 @@
 >
 > "我需要一种能记住对话上下文的方式。"
 >
-> 这就是 Chatflow 的用途。
+> 这就是 Chatflow——本质上就是 Workflow，加了对话记忆。
 
 ## Chatflow 和 Workflow 的区别
 

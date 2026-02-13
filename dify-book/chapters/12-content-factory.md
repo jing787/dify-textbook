@@ -168,4 +168,4 @@ platforms: ["Blog-English", "Instagram-English", "LinkedIn-English", "Blog-Japan
 
 三个痛点到这里全解决了：客服有了 AI 客服，周报有了生成器，内容有了工厂。
 
-但工具做出来只是第一步。怎么让更多人用上？下一章讲发布。
+但工具做出来只是第一步。接下来还有一个综合实战，然后讲怎么发布和运营。
