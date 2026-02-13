@@ -41,7 +41,21 @@ Retrieval-Augmented Generation
 ### 向量数据库
 专门存储和检索向量的数据库。
 
-Dify 默认使用 pgvector（基于 PostgreSQL），也支持 Weaviate、Qdrant、Milvus、Pinecone 等。
+Dify Docker Compose 部署默认使用 Weaviate，也支持 pgvector（PostgreSQL）、Qdrant、Milvus、Pinecone 等。
+
+### Rerank（重排序）
+检索拿回一批 chunk 后，用专门的排序模型对结果重新打分排序，让最相关的排到前面。比单纯的向量相似度更准。
+
+常见 Rerank 模型：Cohere Rerank、Jina Reranker。
+
+### 混合检索（Hybrid Search）
+同时做向量检索和全文检索，合并结果。兼顾语义理解和关键词精确匹配，是大多数场景的推荐选择。
+
+### 父子分段（Parent-Child Chunking）
+两层分段策略：文档先切成大段（父 chunk），再切成小段（子 chunk）。检索时用子 chunk 精准匹配，命中后返回整个父 chunk 给 LLM。兼顾检索精度和上下文完整性。
+
+### Knowledge Pipeline（知识管线）
+Dify 提供的可视化文档处理流程编排工具。像搭 Workflow 一样，可视化配置文档的提取、清洗、分段、索引流程。适合复杂文档处理场景。
 
 ## Dify 相关
 
@@ -87,3 +101,6 @@ Dify 用来保存应用配置的格式（YAML）。
 一种模板语言。用于格式化文本输出。
 
 语法示例：`{{ 变量名 }}`
+
+### MCP（Model Context Protocol）
+模型上下文协议。一种标准化协议，让 AI 应用和外部工具/数据源之间互相通信。Dify 支持把应用发布为 MCP Server，供支持 MCP 的客户端（如 Cursor、Claude Desktop）直接调用。

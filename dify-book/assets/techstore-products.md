@@ -9,7 +9,7 @@ This is the product knowledge base material for TechStore. You can download and 
 ### TechPhone Pro 16
 - **Price**: Starting at $599
 - **Display**: 6.7" AMOLED, 120Hz refresh rate
-- **Processor**: Snapdragon 8 Gen 3
+- **Processor**: Snapdragon 8 Elite
 - **Camera**: 50MP main + 50MP ultrawide + 64MP telephoto
 - **Battery**: 5000mAh, 100W fast charging
 - **Colors**: Midnight Black, Glacier White, Twilight Purple
@@ -20,7 +20,7 @@ This is the product knowledge base material for TechStore. You can download and 
 ### TechPhone Lite 12
 - **Price**: Starting at $249
 - **Display**: 6.5" LCD, 90Hz refresh rate
-- **Processor**: Snapdragon 7 Gen 1
+- **Processor**: Snapdragon 7s Gen 3
 - **Camera**: 50MP main + 8MP ultrawide
 - **Battery**: 4500mAh, 67W fast charging
 - **Colors**: Mint Green, Sakura Pink, Starlight Black
@@ -33,7 +33,7 @@ This is the product knowledge base material for TechStore. You can download and 
 ### TechPad Pro 14
 - **Price**: $699
 - **Display**: 14.6" Mini-LED, 120Hz
-- **Processor**: Snapdragon 8 Gen 3
+- **Processor**: Snapdragon 8 Elite
 - **Storage**: 256GB / 512GB
 - **Battery**: 10000mAh
 - **Accessories**: Stylus & keyboard support
@@ -43,7 +43,7 @@ This is the product knowledge base material for TechStore. You can download and 
 ### TechPad Air 11
 - **Price**: $349
 - **Display**: 11" LCD, 120Hz
-- **Processor**: Snapdragon 7 Gen 1
+- **Processor**: Snapdragon 7s Gen 3
 - **Storage**: 128GB / 256GB
 - **Battery**: 8000mAh
 - **Highlights**: Lightweight, entertainment, learning
@@ -54,8 +54,8 @@ This is the product knowledge base material for TechStore. You can download and 
 ### TechBook Pro 15
 - **Price**: $899
 - **Display**: 15.6" 2.5K, 165Hz
-- **Processor**: Intel i7-13700H
-- **GPU**: RTX 4060
+- **Processor**: Intel Core Ultra 7 155H
+- **GPU**: RTX 4070
 - **RAM**: 16GB DDR5
 - **Storage**: 512GB SSD
 - **Highlights**: Gaming laptop, high performance, excellent cooling
@@ -64,7 +64,7 @@ This is the product knowledge base material for TechStore. You can download and 
 ### TechBook Air 14
 - **Price**: $599
 - **Display**: 14" 2K, 60Hz
-- **Processor**: Intel i5-1340P
+- **Processor**: Intel Core Ultra 5 125H
 - **GPU**: Integrated
 - **RAM**: 16GB
 - **Storage**: 512GB SSD
