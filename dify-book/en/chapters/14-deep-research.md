@@ -138,7 +138,7 @@ After the iteration completes, it outputs a risk assessment array.
 
 ## Step 3: Risk-Level Grouping
 
-Add a Code Execution node to group the assessment results by risk level:
+Add a Code node (code execution) to group the assessment results by risk level:
 
 ```python
 def main(iteration_output: str) -> dict:
@@ -160,7 +160,7 @@ def main(iteration_output: str) -> dict:
 ```
 
 ::: tip
-Dify's Code Execution node requires all code to be wrapped in a `main` function, parameters must have type annotations, and `import` statements go inside the function.
+Dify's Code node requires all code to be wrapped in a `main` function, parameters must have type annotations, and `import` statements go inside the function.
 :::
 
 ## Step 4: Generate Retention Plans for High-Risk Customers

@@ -51,7 +51,7 @@
 - **Configuration**: Template content
 - **Usage frequency**: ★★★☆☆
 
-### Code Execution
+### Code (code execution)
 - **Purpose**: Execute Python/JS code
 - **Configuration**: Code, input/output variables
 - **Note**: Code must be wrapped in a `main()` function, receiving input via parameters and returning output via `return`. Bare code without the function wrapper is not supported
@@ -76,7 +76,7 @@
 
 ## Chatflow-Exclusive Nodes
 
-### Answer (Direct Reply)
+### Answer
 - **Purpose**: Send a reply to the user within a Chatflow
 - **Configuration**: Reply content (supports variable references)
 - **Note**: Acts like the End node in a Workflow, but doesn't terminate the conversation — it waits for the user's next input

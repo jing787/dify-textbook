@@ -4,9 +4,9 @@
 
 ### Q: The AI doesn't seem to understand the uploaded documents?
 
-Check the segmentation settings. Default segmentation may have split related content apart.
+Check the chunk settings. Default chunking may have split related content apart.
 
-**Solution**: Try increasing the chunk length, or use "by paragraph" segmentation.
+**Solution**: Try increasing the chunk length, or use "by paragraph" chunking.
 
 ### Q: Retrieval results are inaccurate?
 
@@ -24,7 +24,7 @@ You can check the indexing status on the Knowledge Base detail page.
 
 ### Q: Want to go deeper on optimizing Knowledge Base performance?
 
-See Ch15 Advanced Knowledge Base, covering segmentation strategies (General / Parent-Child chunking), indexing mode selection, Hybrid Search + Rerank, retrieval testing, Knowledge Pipeline, and more.
+See Ch15 Advanced Knowledge Base, covering chunking strategies (General mode / Parent-child mode), indexing mode selection, Hybrid Search + Rerank, retrieval testing, Knowledge Pipeline, and more.
 
 ## Chatflow
 

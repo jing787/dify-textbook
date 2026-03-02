@@ -8,22 +8,22 @@
 >
 > Lynn decided to dig deeper into Dify's Knowledge Base configuration.
 
-This chapter doesn't involve Workflow orchestration. It focuses entirely on advanced Knowledge Base usage: how to segment, how to index, how to retrieve, and how to test — tuning the RAG pipeline for optimal performance.
+This chapter doesn't involve Workflow orchestration. It focuses entirely on advanced Knowledge Base usage: how to chunk, how to index, how to retrieve, and how to test — tuning the RAG pipeline for optimal performance.
 
 ## Review: The Basic Knowledge Base Flow
 
 Let's recall what we did in Chapter 3:
 
 1. Upload documents
-2. Automatic segmentation (split into chunks)
+2. Automatic chunking (split into chunks)
 3. Vector indexing (convert text into vectors)
 4. During retrieval, find the most similar chunks → feed them to the LLM
 
-This flow works with default settings. But default settings are a "one-size-fits-all" approach — they may not be good enough for specific business needs. There are three directions to optimize: **how to segment**, **how to index**, and **how to retrieve**.
+This flow works with default settings. But default settings are a "one-size-fits-all" approach — they may not be good enough for specific business needs. There are three directions to optimize: **how to chunk**, **how to index**, and **how to retrieve**.
 
-## Segmentation Strategy: How to Segment
+## Chunking Strategy: How to Chunk
 
-Segmentation (Chunking) is the most critical step in the entire RAG pipeline. How well you segment directly determines how accurate your retrieval is.
+Chunking is the most critical step in the entire RAG pipeline. How well you chunk directly determines how accurate your retrieval is.
 
 ### Basic Concepts
 
@@ -31,17 +31,17 @@ Segmentation (Chunking) is the most critical step in the entire RAG pipeline. Ho
 - **Max Chunk Length**: Maximum characters per chunk. If exceeded, a forced split occurs
 - **Overlap**: How many characters overlap between adjacent chunks, to prevent important information from being cut at the boundary
 
-### Two Segmentation Modes
+### Two Chunk Modes
 
-Dify provides two segmentation modes: **General mode** and **Parent-Child mode**.
+Dify provides two chunk modes: **General mode** and **Parent-Child mode**.
 
 **General Mode**
 
-All chunks are the same size. Whichever chunk is matched during retrieval is returned. Suitable for short, self-contained content per segment (FAQs, glossaries, etc.).
+All chunks are the same size. Whichever chunk is matched during retrieval is returned. Suitable for short, self-contained content per chunk (FAQs, glossaries, etc.).
 
 **Parent-Child Mode**
 
-Documents are first split into large segments (parent chunks), and each parent chunk is further split into small segments (child chunks). During retrieval, child chunks are used for precise matching, and when a child chunk is matched, the entire parent chunk it belongs to is returned to the LLM.
+Documents are first split into large parent chunks, and each parent chunk is further split into small child chunks. During retrieval, child chunks are used for precise matching, and when a child chunk is matched, the entire parent chunk it belongs to is returned to the LLM.
 
 This solves a classic dilemma:
 - Small chunks → Precise matching, but insufficient context — the LLM may not fully understand
@@ -55,22 +55,22 @@ Use Parent-Child mode when documents are long and densely structured. For exampl
 If it's short FAQs or independent Q&A pairs, General mode is sufficient.
 :::
 
-### Hands-On: Adjusting Segmentation Settings
+### Hands-On: Adjusting Chunk Settings
 
-In the Knowledge Base detail page → Document Settings, you can adjust the segmentation parameters:
+In the Knowledge Base detail page → Document Settings, you can adjust the chunk settings:
 
 1. **Select mode**: General or Parent-Child
 2. **Set delimiter**: Choose based on document structure. For Markdown documents, `\n\n` (paragraph) is recommended; for HTML, split by tags
 3. **Set max length**: For General mode, 500-1000 characters is recommended; for Parent-Child mode, child chunks should be 200-500, parent chunks should be 1000-2000
-4. **Preview**: Click "Preview" to see the segmentation result — if it doesn't look right, adjust the parameters
+4. **Preview**: Click "Preview" to see the chunking result — if it doesn't look right, adjust the parameters
 
 ::: warning Note
-The segmentation mode cannot be changed after a Knowledge Base is created. If you want to switch modes, you need to create a new Knowledge Base and re-upload. However, the delimiter and max length can be adjusted at any time.
+The chunk mode cannot be changed after a Knowledge Base is created. If you want to switch modes, you need to create a new Knowledge Base and re-upload. However, the delimiter and max length can be adjusted at any time.
 :::
 
 ## Indexing Method: How to Index
 
-After segmentation, each chunk needs to be indexed so it can be found during retrieval. Dify provides two indexing methods:
+After chunking, each chunk needs to be indexed so it can be found during retrieval. Dify provides two indexing methods:
 
 | Indexing Method | How It Works | Pros | Cons |
 |----------|------|------|------|
@@ -143,7 +143,7 @@ After configuring the Knowledge Base, don't rush to connect it to an application
 - Edge cases: For example, products with similar names — does retrieval get confused?
 - No-answer questions: For content not in the Knowledge Base, do the retrieval results have very low scores (they should be filtered out)?
 
-If the test results aren't satisfactory, go back and adjust the segmentation strategy, retrieval method, or Rerank parameters, then test again.
+If the test results aren't satisfactory, go back and adjust the chunking strategy, retrieval method, or Rerank parameters, then test again.
 
 ## Knowledge Pipeline: Visual Orchestration of Knowledge Processing
 
@@ -161,7 +161,7 @@ What each stage does:
 |------|--------|------|
 | **Data Source** | Where to read data from | Local files, web pages, Notion |
 | **Data Extraction** | Convert raw formats to text | PDF parsing, HTML cleaning |
-| **Data Processing** | Segmentation, cleaning, enrichment | Custom segmentation rules, noise removal, summary generation |
+| **Data Processing** | Chunking, cleaning, enrichment | Custom chunking rules, noise removal, summary generation |
 | **Knowledge Storage** | Indexing and storage | Vectorization, writing to the Knowledge Base |
 
 Each stage can use different nodes and plugin combinations, offering far more flexibility than the "Quick Create" approach described above.
@@ -174,7 +174,7 @@ Each stage can use different nodes and plugin combinations, offering far more fl
 
 **When you don't need it:**
 - Simple document formats (plain text, Markdown)
-- Default segmentation and indexing are sufficient
+- Default chunking and indexing are sufficient
 - You're just getting started — practice with Quick Create first
 
 ::: tip
@@ -186,8 +186,8 @@ Knowledge Pipeline has built-in templates, so you don't need to build from scrat
 Back to the TechStore scenario. Lynn identified the following issues:
 
 **Issue 1:** Warranty terms for Product A and Product B were getting mixed up
-- Cause: Both chunks contained "warranty," and General mode segmentation resulted in similarity scores too close together
-- Solution: Switch to **Parent-Child segmentation mode** for smaller, more precise child chunks
+- Cause: Both chunks contained "warranty," and General mode chunking resulted in similarity scores too close together
+- Solution: Switch to **Parent-child mode** for smaller, more precise child chunks
 
 **Issue 2:** When customers entered order numbers, retrieval results were irrelevant
 - Cause: Pure vector search doesn't handle exact number matching well
@@ -204,7 +204,7 @@ After adjusting the parameters, Lynn ran a round of retrieval testing. The resul
 The Knowledge Base is the foundation of RAG applications. When the foundation is solid, the Workflows and Chatflows built on top can truly deliver results.
 
 ::: tip In a nutshell
-- Simple content → Quick Create + General segmentation + High Quality indexing
-- Complex content → Knowledge Pipeline + Parent-Child segmentation + Hybrid Search + Rerank
+- Simple content → Quick Create + General mode + High Quality indexing
+- Complex content → Knowledge Pipeline + Parent-child mode + Hybrid Search + Rerank
 - Not sure about the results → Run retrieval tests and let the data speak
 :::

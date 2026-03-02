@@ -46,7 +46,7 @@ You'll see a canvas interface similar to Workflow, but with a few differences:
 
 - The **Start node** comes with a built-in `sys.query` variable (the user's current input) — no need to manually define input variables
 - There are additional **conversation memory** settings
-- The End node is replaced by a **"Direct Reply"** node
+- The End node is replaced by an **"Answer"** node (also called "Direct Reply")
 
 ## Step 2: Build the Basic Conversation Flow
 
@@ -69,13 +69,13 @@ Same as the previous Workflow:
 - After-Sales Service → FAQ Knowledge Base → LLM response
 - Complaints/Other → Empathetic response LLM
 
-**3. Connect to the "Direct Reply" node**
+**3. Connect to the "Answer" node**
 
-Chatflow uses "Direct Reply" instead of Workflow's "End" node. It sends the LLM's output directly to the user and keeps it in the conversation history.
+Chatflow uses "Answer" instead of Workflow's "End" node. It sends the LLM's output directly to the user and keeps it in the conversation history.
 
-::: tip Direct Reply vs. End
+::: tip Answer vs. End
 - Workflow's "End": Outputs the result and the process ends — the next execution starts fresh
-- Chatflow's "Direct Reply": Outputs the result and waits for the user's next input — conversation context is preserved
+- Chatflow's "Answer": Outputs the result and waits for the user's next input — conversation context is preserved
 :::
 
 At this point, you already have a customer service bot that can handle multi-turn conversations. But there's still a key capability missing — **remembering information the user has already shared**.
@@ -187,7 +187,7 @@ Question Classifier
     ├── Complaints → Empathetic Response LLM
     └── Other → General Response LLM
     ↓
-Direct Reply
+Answer
 ```
 
 ## The Upgrade Path: Chatbot → Workflow → Chatflow

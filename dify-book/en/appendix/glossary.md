@@ -50,10 +50,10 @@ Common Rerank models: Cohere Rerank, Jina Reranker.
 Performs both vector search and full-text search simultaneously, then merges the results. Combines semantic understanding with precise keyword matching — the recommended choice for most scenarios.
 
 ### Parent-Child Chunking
-A two-tier segmentation strategy: documents are first split into large segments (parent chunks), then into small segments (child chunks). During retrieval, child chunks are used for precise matching; when a match is found, the entire parent chunk is returned to the LLM. Balances retrieval precision with context completeness.
+A two-tier chunking strategy: documents are first split into large chunks (parent chunks), then into small chunks (child chunks). During retrieval, child chunks are used for precise matching; when a match is found, the entire parent chunk is returned to the LLM. Balances retrieval precision with context completeness.
 
 ### Knowledge Pipeline
-Dify's visual document processing orchestration tool. Like building a Workflow, you can visually configure the extraction, cleaning, segmentation, and indexing pipeline for documents. Suited for complex document processing scenarios.
+Dify's visual document processing orchestration tool. Like building a Workflow, you can visually configure the extraction, cleaning, chunking, and indexing pipeline for documents. Suited for complex document processing scenarios.
 
 ## Dify-Specific
 

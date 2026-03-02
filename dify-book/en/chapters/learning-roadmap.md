@@ -124,7 +124,7 @@ All the nodes learned previously, combined in different business scenarios.
 
 **Stage outcome**: Able to apply skills creatively, independently design and deliver complete AI applications.
 
-**Key skills**: Parallel processing · Jinja2 templates · Code Execution · Workflow as Tool
+**Key skills**: Parallel processing · Jinja2 templates · Code · Workflow as Tool
 
 ---
 
@@ -134,11 +134,11 @@ After your applications are running, you may find: the questions AI gets wrong a
 
 | Chapter | Content | Time | What You'll Gain |
 |------|------|------|----------|
-| Ch15 · Advanced Knowledge Base | Segmentation strategies, Parent-Child chunking, indexing methods, Hybrid Search, Rerank, retrieval testing, Knowledge Pipeline | 60 min | Make Knowledge Base retrieval fast and accurate |
+| Ch15 · Advanced Knowledge Base | Chunking strategies, Parent-child mode, indexing methods, Hybrid Search, Rerank, retrieval testing, Knowledge Pipeline | 60 min | Make Knowledge Base retrieval fast and accurate |
 
 **Stage outcome**: Understand the complete RAG pipeline. Able to diagnose and fix "AI gives wrong answers" problems.
 
-**Key skills**: General vs Parent-Child chunking · Vector / Full-text / Hybrid Search · Rerank · Retrieval testing · Knowledge Pipeline
+**Key skills**: General mode vs Parent-child mode · Vector / Full-text / Hybrid Search · Rerank · Retrieval testing · Knowledge Pipeline
 
 ---
 

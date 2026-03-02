@@ -64,19 +64,19 @@ Credit/Debit cards (Visa, MasterCard, Amex), PayPal, Apple Pay, Klarna installme
 :::
 
 5. Upload your FAQ document (supports TXT, Markdown, PDF, Word)
-6. Configure segmentation and indexing:
-   - **Segmentation mode**: Start with "Automatic" — Dify will split your document into appropriate chunks
+6. Configure chunking and indexing:
+   - **Chunk mode**: Start with "Automatic" — Dify will split your document into appropriate chunks
    - **Indexing mode**: Choose "High Quality" — it uses an Embedding model to convert text into vectors for better retrieval (the trade-off is some token consumption during processing)
 7. Click "Save & Process"
 
-Wait a few minutes and the Knowledge Base is ready. On the Knowledge Base detail page, you'll see the document split into multiple "segments" (also called chunks). Each segment is vectorized and indexed, so when users ask questions, Dify finds the segments most similar to the query.
+Wait a few minutes and the Knowledge Base is ready. On the Knowledge Base detail page, you'll see the document split into multiple chunks. Each chunk is vectorized and indexed, so when users ask questions, Dify finds the chunks most similar to the query.
 
 ::: tip Advanced: Knowledge Pipeline
-Dify also offers a more powerful feature called **Knowledge Pipeline**, where you can visually orchestrate the document processing flow — just like building a Workflow. How to clean, how to segment, how to index — it's all configurable.
+Dify also offers a more powerful feature called **Knowledge Pipeline**, where you can visually orchestrate the document processing flow — just like building a Workflow. How to clean, how to chunk, how to index — it's all configurable.
 
-One key capability is **Parent-Child Retrieval**: it uses fine-grained segments for precise matching, and when a match is found, returns the parent (larger) segment to the LLM — balancing retrieval precision with context completeness.
+One key capability is **Parent-Child Retrieval**: it uses fine-grained chunks for precise matching, and when a match is found, returns the parent (larger) chunk to the LLM — balancing retrieval precision with context completeness.
 
-For getting started, the default automatic segmentation + high-quality indexing works just fine. When you run into "retrieval results aren't accurate enough" issues, come back and explore Knowledge Pipeline.
+For getting started, the default automatic chunking + high-quality indexing works just fine. When you run into "retrieval results aren't accurate enough" issues, come back and explore Knowledge Pipeline.
 :::
 
 ## Step 2: Create a Chatbot Application
@@ -115,7 +115,7 @@ Response guidelines:
 
 1. In the "Context" section, click "Add"
 2. Select the "TechStore FAQ" Knowledge Base you just created
-3. Set retrieval count: 3–5 (retrieves the most relevant segments)
+3. Set retrieval count: 3–5 (retrieves the most relevant chunks)
 
 **Choose a Model:**
 
