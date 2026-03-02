@@ -52,7 +52,7 @@ Optimization suggestions:
 
 1. Reduce unnecessary LLM calls
 2. Run nodes in parallel when possible
-3. Use a faster model (gpt-4o-mini)
+3. Use a faster/lighter model if budget is limited
 4. Optimize prompts to reduce output length
 
 ### Q: The Iteration node throws an error?

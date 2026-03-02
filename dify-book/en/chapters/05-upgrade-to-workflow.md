@@ -65,7 +65,7 @@ This node retrieves the most relevant content from the Knowledge Base based on t
 2. Connect the "Knowledge Retrieval" node to the "LLM" node
 3. Configure the LLM node:
 
-**Select model**: gpt-4o-mini (or another model you've configured)
+**Select model**: gpt-5 (or another model you've configured)
 
 **System prompt**:
 

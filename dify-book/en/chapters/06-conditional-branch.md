@@ -186,7 +186,7 @@ Dify provides a "Question Classifier" node:
    - Category 2: After-Sales Service — returns, exchanges, warranty, shipping, refunds
    - Category 3: Complaints & Suggestions — expressing dissatisfaction, criticism, filing complaints
    - Category 4: Other — anything that doesn't fit above
-3. Select a model (a cost-effective model like gpt-4o-mini works well here)
+3. Select a model (a cost-effective model like gpt-5 works well here)
 
 The Question Classifier uses AI to understand the intent behind a question, rather than simply matching keywords.
 

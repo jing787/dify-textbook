@@ -45,7 +45,7 @@ The "Parameter Extractor" node lets AI extract structured information from unstr
 - Type: `Array[String]` (string array)
 - Description: All questions contained in the customer's email, each as a separate element
 
-**Select model**: gpt-4o-mini
+**Select model**: gpt-5
 
 **Extraction instructions** (optional):
 ```

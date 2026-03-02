@@ -120,7 +120,7 @@ Response guidelines:
 **Choose a Model:**
 
 1. In the "Model" section, select the model you configured
-2. Recommended: gpt-4o-mini (great cost-performance ratio) or gpt-5 (better results but more expensive)
+2. Recommended: gpt-5 (current mainstream model) or another model you've configured
 
 ## Step 4: Test It Out
 

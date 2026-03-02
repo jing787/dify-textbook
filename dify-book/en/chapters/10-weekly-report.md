@@ -213,3 +213,12 @@ Click Run and observe the execution — you'll see both analysis nodes **start e
 The first time Lynn ran this Workflow, results came back in 30 seconds. The task that used to eat up 3 hours every Friday afternoon was now just a quick copy-paste job.
 
 *"Should've built this ages ago."*
+
+::: tip Advanced: Fully Automate with Schedule Trigger
+This Workflow still requires manually pasting data and clicking Run. If your data sources have API endpoints (e.g., internal company systems), you can:
+1. Switch the Start node to a **Schedule Trigger** — set it to run every Friday at 3 PM
+2. Use HTTP Request nodes to automatically pull data from internal systems
+3. Use email or Slack plugins to auto-send the generated report
+
+This way, no human involvement needed at all. See Chapter 18 for more on Triggers.
+:::

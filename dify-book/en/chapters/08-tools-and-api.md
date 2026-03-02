@@ -63,7 +63,7 @@ The Agent node is a standalone node type (not a variant of the LLM node). Its de
 1. Add an "Agent" node to your Workflow
 2. Configure it:
 
-**Select model**: gpt-5 (recommended for more accurate tool calling) or gpt-4o-mini
+**Select model**: gpt-5 (recommended for accurate tool calling)
 
 **Configure tools**: Check the tools you want to use, e.g., "DuckDuckGo Search"
 

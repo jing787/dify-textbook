@@ -14,19 +14,27 @@
 >
 > Lynn thought for a moment, then shared the directions she'd been considering.
 
-## Scheduled Triggers: Let AI Work Proactively
+## Automated Triggers: Let AI Work Proactively
 
-*"The first direction is scheduled triggers."*
+*"The first direction is converting all our existing Workflows to auto-triggered."*
 
-*"Right now all our tools are 'human-triggered' — a person provides input, the AI provides output. But some things should happen automatically on a schedule."*
+*"Some of our tools are still 'human-triggered' — a person provides input, the AI provides output. But Dify already supports **Triggers**, so we can make AI work automatically on a schedule."*
 
-For example: automatically generate a daily to-do summary every morning at 9 AM, auto-generate a draft weekly report every Friday afternoon, or check once per hour for new complaints that need flagging.
+Dify's Triggers support three types:
 
-Dify's Workflow Start node already supports **Trigger** types — you can set up scheduled or event-based triggers to run Workflows at specified times automatically, without anyone clicking the "Run" button.
+- **Schedule Trigger (time-based)**: Set a cron expression or choose hourly/daily/weekly/monthly — the Workflow runs automatically at the specified time
+- **Webhook Trigger (HTTP-based)**: An external system sends an HTTP request to trigger the Workflow
+- **Plugin Trigger (event-based)**: Subscribe to external system events (e.g., a new Slack message, a GitHub Issue being created) to automatically trigger the Workflow
+
+For example: automatically generate a daily to-do summary every morning at 9 AM, auto-generate a draft weekly report every Friday afternoon, or trigger the customer service Workflow whenever a customer sends a message in Slack.
+
+::: tip How to Add a Trigger
+On the Workflow canvas, right-click → Add Node → Start → Schedule Trigger / Webhook Trigger / Plugin Trigger. Trigger and User Input cannot coexist on the same canvas — you need to right-click to switch between them.
+:::
 
 David's eyes lit up: *"You mean I won't have to chase you for the weekly report on Fridays — it'll just show up automatically?"*
 
-*"Exactly. With an email or Slack plugin, it gets sent straight to you as soon as it's generated."*
+*"Exactly. With an email or Slack plugin, it gets sent straight to you as soon as it's generated. I'm already testing it."*
 
 *"I like this. Get it done ASAP."*
 
